@@ -93,7 +93,7 @@ const ProverbsDashboard = () => {
         { verse: 4, text: "Where no oxen are, the crib is clean, but much increase is by the strength of the ox." },
         { verse: 5, text: "A faithful witness will not lie, but a false witness pours out lies." },
         { verse: 6, text: "A scoffer seeks wisdom and doesn&apos;t find it, but knowledge comes easily to a discerning person." },
-        { verse: 7, text: "Stay away from a foolish man, for you won&apos;t find knowledge on his lips." },
+        { verse: 7, text: "Stay away from a foolish man, for you won&apos;t find knowledge on his lips." },        
         { verse: 8, text: "The wisdom of the prudent is to think about his way, but the folly of fools is deceit." },
         { verse: 9, text: "Fools mock at making atonement for sins, but among the upright there is good will." },
         { verse: 10, text: "The heart knows its own bitterness and joy; he will not share these with a stranger." },
@@ -108,20 +108,20 @@ const ProverbsDashboard = () => {
         { verse: 19, text: "The evil bow down before the good, and the wicked at the gates of the righteous." },
         { verse: 20, text: "The poor person is shunned even by his own neighbor, but the rich person has many friends." },
         { verse: 21, text: "He who despises his neighbor sins, but blessed is he who has pity on the poor." },
-        { verse: 22, text: "Don&apos;t they go astray who plot evil? But love and faithfulness belong to those who plan good." },        { verse: 23, text: "In all hard work there is profit, but the talk of the lips leads only to poverty." },
+        { verse: 22, text: "Don&apos;t they go astray who plot evil? But love and faithfulness belong to those who plan good." },
+        { verse: 23, text: "In all hard work there it profit, but the talk of the lips leads only to poverty." },          
         { verse: 24, text: "The crown of the wise is their riches, but the folly of fools crowns them with folly." },
         { verse: 25, text: "A truthful witness saves lives, but a false witness is deceitful." },
         { verse: 26, text: "In the fear of the LORD is a secure fortress, and he will be a refuge for his children." },
         { verse: 27, text: "The fear of the LORD is a fountain of life, turning people from the snares of death." },
-        { verse: 28, text: "In the multitude of people is the king&apos;s glory, but in the lack of people is the destruction of the prince." },
+        { verse: 28, text: "In the multitude of people is the king&apos;s glory, but in the lack of people is the destruction of the prince." },        
         { verse: 29, text: "He who is slow to anger has great understanding, but he who has a quick temper displays folly." },
         { verse: 30, text: "A sound heart is the life of the body, but envy rots the bones." },
         { verse: 31, text: "He who oppresses the poor shows contempt for his Maker, but he who is kind to the needy honors him." },
         { verse: 32, text: "The wicked is brought down in his calamity, but in death, the righteous has a refuge." },
         { verse: 33, text: "Wisdom rests in the heart of one who has understanding, and is even made known in the midst of fools." },
         { verse: 34, text: "Righteousness exalts a nation, but sin is a disgrace to any people." },
-        { verse: 35, text: "The king&apos;s favor is toward a servant who deals wisely, but his wrath is toward one who causes shame." }
-      ]
+        { verse: 35, text: "The king&apos;s favor is toward a servant who deals wisely, but his wrath is toward one who causes shame." }      ]
     };
   
     return (
