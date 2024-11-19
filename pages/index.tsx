@@ -1,13 +1,19 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import ProverbsDashboard from '../components/ProverbsDashboard'
 
 const Home: NextPage = () => {
   return (
-    <div className="min-h-screen bg-white">
-      <main className="container mx-auto px-4 py-8">
+    <>
+      <Head>
+        <title>Proverbs Daily Blitz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main className="min-h-screen bg-white">
         <ProverbsDashboard />
       </main>
-    </div>
+    </>
   )
 }
 

@@ -1,19 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   reactStrictMode: true,
-  output: 'standalone',
+  output: 'export', // Change this from 'standalone' to 'export'
   images: {
-    domains: ['api.placeholder.com'],
+    unoptimized: true
   },
-  // Add basePath if you're not deploying to the root
-  // basePath: '',
-  // Add any needed rewrites or redirects
-  async rewrites() {
-    return [];
-  }
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
