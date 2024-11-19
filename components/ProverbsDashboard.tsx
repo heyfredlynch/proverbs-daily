@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Video } from 'lucide-react';
-import { Share2 } from 'lucide-react';
-import { ChevronLeft } from 'lucide-react';
-import { ChevronRight } from 'lucide-react';
-import { Facebook } from 'lucide-react';
-import { Youtube } from 'lucide-react';
-import { Instagram } from 'lucide-react';
-import { Twitter } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { 
+  Video, 
+  Share2, 
+  ChevronLeft, 
+  ChevronRight, 
+  Facebook, 
+  Youtube, 
+  Instagram, 
+  Twitter 
+} from 'lucide-react';
 
 interface Devotional {
   verse: string;

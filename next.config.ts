@@ -1,10 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    // Don't run ESLint during builds - we'll handle linting separately
-    ignoreDuringBuilds: true
+    ignoreDuringBuilds: true,
   },
   reactStrictMode: true,
+  output: 'standalone',
+  images: {
+    domains: ['api.placeholder.com'],
+  },
+  // Add basePath if you're not deploying to the root
+  // basePath: '',
+  // Add any needed rewrites or redirects
+  async rewrites() {
+    return [];
+  }
 }
 
 module.exports = nextConfig
