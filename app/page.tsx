@@ -3,8 +3,7 @@ import ThemeTest from '@/components/ThemeTest';
 
 export default function Home() {
   return (
-    <main>
-      <h1>Theme Test Page</h1>
+    <main className="min-h-screen bg-gray-50 py-12">
       <ThemeTest />
     </main>
   );
